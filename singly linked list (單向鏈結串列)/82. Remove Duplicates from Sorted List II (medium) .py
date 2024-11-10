@@ -1,6 +1,10 @@
 from typing import List, Optional
 from tool import ListNode, build_singly_linked_list, print_singly_linked_list
 
+'''Given the head of a sorted linked list, delete all nodes that have duplicate numbers, 
+leaving only distinct numbers from the original list. 
+Return the linked list sorted as well.'''
+
 class Solution:
     def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
         dummy = ListNode()

@@ -1,6 +1,9 @@
 from typing import Optional
 from tool import ListNode, build_singly_linked_list, print_singly_linked_list
 
+'''Given the head of a sorted linked list, delete all duplicates such that each element appears only once. 
+Return the linked list sorted as well.'''
+
 class Solution:
     def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
         p=head # 直接修改
